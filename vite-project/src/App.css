@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  background-color: red;
+}
+
+.product-list {
+  flex: 1;
+}
+
+.shopping-cart {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+}
